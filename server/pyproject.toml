@@ -1,0 +1,11 @@
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Md. Nazrul Islam Khan", email = "nazrulkhan.dk@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+license = {text = "MIT"}
