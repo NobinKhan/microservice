@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "auth"
+version = "0.0.1"
+description = "Auth Microservice"
+authors = ["Mohammad Nazrul Islam Khan <nazrulkhan.dk@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.101.0"
+uvicorn = "^0.23.2"
+
+
+[tool.poetry.scripts]
+dev = "settings.dev:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
